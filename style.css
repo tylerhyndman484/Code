@@ -34,23 +34,19 @@ nav {
     gap: 20px;
 }
 
-.mission {
-    height: auto;
-    width: auto;
-}
 
 
 #missionImg {
-    width: 1200px;
+    width: auto;
     position: relative;
     top: -20px;
-    padding-left: 40px;
-    margin-right: 40px;
 }
 
 .teaChoices {
     margin-top: 50px;
     width: 1000px;
+    display: block;
+    justify-content: center;
 }
 
 .teaChoices img {
@@ -59,12 +55,11 @@ nav {
 }
 
 .missionStatement {
-    text-align: center;
-    position: relative;
-    top: 400px;
     z-index: 10;
-    width: 1200px;
     height: 85px;
+    Position: absolute;
+    top: 350px;
+    width: 1500px;
 }
 
 .missionStatement h2 {
