@@ -92,25 +92,62 @@ nav {
     padding-top: 10px;
 }
 
+.locationLayout {
+    position: relative;
+}
+
+.locationsImg {
+    height: 500px;
+    overflow: hidden;
+}
+
 
 .locations {
-    background-image: url(./photos/img-locations-background.jpg);
-    height: 500px;
-    border: solid;
-    display: grid;
-    grid-template-rows: 250px;
-    grid-template-columns: repeat(3, 300px);
-    display: flex;
-    align-items: center;
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    /* justify-content: center; */
+    /* position: relative;
+    bottom: 400px; */
+    /* gap: 20px; */
+    /* display: flex;
     justify-content: center;
-    gap: 40px;
-    opacity: 1;
-    width: 100%;
+    align-items: center;
+    position: absolute;
+    top: 150px;
+    gap: 40px; */
+    display: inline-flex;
+    width: 900px;
+    justify-content: center;
+    min-width: 100%; 
 }
 
-.box1, .box2, .box3 {
-    height: auto;
+.box1 {
     width: 300px;
-    line-height: 75px;
+    height: auto;
+    line-height: 50px;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+    opacity: 1;
+    
 }
 
+.box2 {
+    width: 300px;
+    height: auto;
+    line-height: 50px;
+    position: absolute;
+    top: 150px;
+    opacity: 1;
+}
+
+.box3 {
+    width: 300px;
+    height: auto;
+    line-height: 50px;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    opacity: 1;
+
+}
